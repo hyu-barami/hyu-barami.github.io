@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "barami.css",
+	"sources": [
+		"barami.scss"
+	],
+	"sourcesContent": [
+		"$barami-color: rgb(88, 117, 65);\n\n.barami-account {\n  border: 2px solid $barami-color;\n  border-radius: 10px;\n  padding: 10px;\n  .barami-account-title {\n    font-weight: bold;\n  }\n  .barami-account-content {\n    font-size: 90%;\n  }\n}\n\n\n// 신현이 추가한 커스텀 패널들\n// - 후원 계좌 및 방명록\n.custom-panel {\n  border: 2px solid $barami-color;\n  border-radius: 10px;\n  padding: 10px;\n  margin: 10px 0;\n  .custom-panel-title {\n    font-weight: bold;\n  }\n  .custom-panel-content {\n    font-size: 90%;\n  }\n  a {\n    font-weight: bold;\n    color: $barami-color;\n  }\n}"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,eAAe,AAAC,CACd,MAAM,CAAE,GAAG,CAAC,KAAK,CAHJ,OAAgB,CAI7B,aAAa,CAAE,IAAI,CACnB,OAAO,CAAE,IAAI,CAOd,AAVD,AAIE,eAJa,CAIb,qBAAqB,AAAC,CACpB,WAAW,CAAE,IAAI,CAClB,AANH,AAOE,eAPa,CAOb,uBAAuB,AAAC,CACtB,SAAS,CAAE,GAAG,CACf,AAMH,AAAA,aAAa,AAAC,CACZ,MAAM,CAAE,GAAG,CAAC,KAAK,CAlBJ,OAAgB,CAmB7B,aAAa,CAAE,IAAI,CACnB,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,MAAM,CAWf,AAfD,AAKE,aALW,CAKX,mBAAmB,AAAC,CAClB,WAAW,CAAE,IAAI,CAClB,AAPH,AAQE,aARW,CAQX,qBAAqB,AAAC,CACpB,SAAS,CAAE,GAAG,CACf,AAVH,AAWE,aAXW,CAWX,CAAC,AAAC,CACA,WAAW,CAAE,IAAI,CACjB,KAAK,CA9BM,OAAgB,CA+B5B"
+}
